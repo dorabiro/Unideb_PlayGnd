@@ -6,4 +6,4 @@ categories: jekyll update
 
 ---
 
-<img src="./assets/test2.png" alt="Alt szöveg">
+![image description](/imagages/test2.png)
