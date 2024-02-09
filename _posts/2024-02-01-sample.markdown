@@ -6,4 +6,7 @@ categories: jekyll update
 
 ---
 
-![image description](images/test2.png)
+<img src="/unideb.playgnd/images/breadboard.png" alt="Picture not found">
+
+
+ 
