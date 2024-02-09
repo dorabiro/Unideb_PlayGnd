@@ -6,4 +6,4 @@ categories: jekyll update
 
 ---
 
-![image description](_site/assets/images/test2.png)
+![image description](images/test2.png)
