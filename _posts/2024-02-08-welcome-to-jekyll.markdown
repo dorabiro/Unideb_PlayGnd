@@ -3,7 +3,7 @@ layout: post
 title:  "Sallen-Key Filter"
 date:   2024-02-08 17:28:23 +0100
 categories: jekyll update
-image: /assets/images/breadboard.jpg
+
 ---
 In this post you can read about a special case of the general [Sallen-Key][sallen-key] topology, where equal resistor and capacitor values were used:  `R1 = R2 = R` and `C1 = C2 = C`. In the following you can find the tools, results, and methods which I used.
 
@@ -29,7 +29,6 @@ Measurement parameters:
     Output signal level: 5 Vpp
     IC supply voltage: ±12 V
 
-![Breadboard](/assets/images/breadboard.png)
 
 Used software and packages:
 
