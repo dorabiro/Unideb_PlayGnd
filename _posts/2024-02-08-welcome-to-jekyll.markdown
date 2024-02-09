@@ -38,4 +38,4 @@ Used software and packages:
 
 [sallen-key]: https://en.wikipedia.org/wiki Sallen%E2%80%93Key_topology
 
-![Breadboard](/assets/images/breadboard.png)
+![Breadboard](/assets/breadboard.png)
