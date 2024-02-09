@@ -35,6 +35,8 @@ Used software and packages:
     SciLab
     Python PyVISA-Py"
 
+[Breadboard]
+
 
 [sallen-key]: https://en.wikipedia.org/wiki Sallen%E2%80%93Key_topology
 
