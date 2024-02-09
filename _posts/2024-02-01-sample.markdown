@@ -5,3 +5,5 @@ date:   2024-02-01
 categories: jekyll update
 
 ---
+
+![test2](/unideb.playgn/assets/test2.png)
