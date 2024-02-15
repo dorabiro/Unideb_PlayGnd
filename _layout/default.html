@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    {% if page.use_math %}
-    {% include mathjax_support.html %}
-    {% endif %}
-
+    <link rel="stylesheet" media="all" href="normalize.css">
+    <link rel="stylesheet" media="all" href="core.css">
+    <link rel="stylesheet" media="all" href="style.css">
+    <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
 </head>
-<body>
-
-</body>
+<body data-document>&nbsp;</body>
 </html>
-
-<script src=”https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id=”MathJax-script” async src=”https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

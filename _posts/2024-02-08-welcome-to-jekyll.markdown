@@ -3,8 +3,8 @@ layout: post
 title:  "Sallen-Key Filter"
 date:   2024-02-08 17:28:23 +0100
 categories: jekyll update
-use_math: true
-
+math_engine: mathjax
+use_math : true
 ---
 In this post you can read about a special case of the general [Sallen-Key][sallen-key] topology, where equal resistor and capacitor values were used:  `R1 = R2 = R` and `C1 = C2 = C`. In the following you can find the tools, results, and methods which I used.
 
@@ -47,7 +47,10 @@ Circuit on breadboard</p>
 
 To understand the selected system, it is necessary to determine the mathematical relationship among its characteristics, the equations governing these characteristics, and the coefficients within them. Overall, during the completion of the task, structural and parameter identification was conducted.
 
-This sentence uses `$` delimiters to show math inline:  $$ x = y^2 $$ - but its not working yet.
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+ - but its not working yet.
 
 
 ```python
