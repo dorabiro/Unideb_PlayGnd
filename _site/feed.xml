@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.4">Jekyll</generator><link href="http://localhost:4000/unideb.playgnd/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/unideb.playgnd/" rel="alternate" type="text/html" /><updated>2024-02-15T14:25:06+01:00</updated><id>http://localhost:4000/unideb.playgnd/feed.xml</id><title type="html">UnidebPlayGnd</title><subtitle>Debreceni Egyetem</subtitle><entry><title type="html">Sallen-Key Filter</title><link href="http://localhost:4000/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Sallen-Key Filter" /><published>2024-02-08T17:28:23+01:00</published><updated>2024-02-08T17:28:23+01:00</updated><id>http://localhost:4000/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html"><![CDATA[<p>In this post you can read about a special case of the general <a href="https://en.wikipedia.org/wiki Sallen%E2%80%93Key_topology">Sallen-Key</a> topology, where equal resistor and capacitor values were used:  <code class="language-plaintext highlighter-rouge">R1 = R2 = R</code> and <code class="language-plaintext highlighter-rouge">C1 = C2 = C</code>. In the following you can find the tools, results, and methods which I used.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.4">Jekyll</generator><link href="http://localhost:4000/unideb.playgnd/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/unideb.playgnd/" rel="alternate" type="text/html" /><updated>2024-02-15T16:06:43+01:00</updated><id>http://localhost:4000/unideb.playgnd/feed.xml</id><title type="html">UnidebPlayGnd</title><subtitle>Debreceni Egyetem</subtitle><entry><title type="html">Sallen-Key Filter</title><link href="http://localhost:4000/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Sallen-Key Filter" /><published>2024-02-08T17:28:23+01:00</published><updated>2024-02-08T17:28:23+01:00</updated><id>http://localhost:4000/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html"><![CDATA[<p>In this post you can read about a special case of the general <a href="https://en.wikipedia.org/wiki Sallen%E2%80%93Key_topology">Sallen-Key</a> topology, where equal resistor and capacitor values were used:  <code class="language-plaintext highlighter-rouge">R1 = R2 = R</code> and <code class="language-plaintext highlighter-rouge">C1 = C2 = C</code>. In the following you can find the tools, results, and methods which I used.</p>
 
 <p><strong>Used instruments:</strong></p>
 
@@ -42,17 +42,19 @@ Circuit on breadboard</p>
 
 <p>To understand the selected system, it is necessary to determine the mathematical relationship among its characteristics, the equations governing these characteristics, and the coefficients within them. Overall, during the completion of the task, structural and parameter identification was conducted.</p>
 
-<p>When \((a \ne 0)\), there are two solutions to \((ax^2 + bx + c = 0)\) and they are
-\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\)</p>
+<p>${V_x - V_i \over R1} + {V_x - V_y \over R2} + {V_x - V_o \over ZC1} = 0$</p>
 
-<ul>
-  <li>but its not working yet.</li>
-</ul>
+<p>$ZC1 = {1 \over SC1}$</p>
+
+<p>$V_y = V_x * {ZC2 \over ZC2 + R2 }$</p>
+
+<p>$V_y = V_o * {R3 \over R3 + R4 }$</p>
 
 <div class="code-header">
     <button class="copy-code-button">
       Copy code to clipboard
     </button>
+
 </div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">FREQ_STEPS</span><span class="p">):</span>

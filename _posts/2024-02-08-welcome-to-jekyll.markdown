@@ -47,12 +47,13 @@ Circuit on breadboard</p>
 
 To understand the selected system, it is necessary to determine the mathematical relationship among its characteristics, the equations governing these characteristics, and the coefficients within them. Overall, during the completion of the task, structural and parameter identification was conducted.
 
-When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+${V_x - V_i \over R1} + {V_x - V_y \over R2} + {V_x - V_o \over ZC1} = 0$
 
- - but its not working yet.
+$ZC1 = {1 \over SC1}$
 
+$V_y = V_x * {ZC2 \over ZC2 + R2 }$
 
+$V_y = V_o * {R3 \over R3 + R4 }$
 
 
 
