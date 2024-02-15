@@ -47,7 +47,7 @@ Circuit on breadboard</p>
 
 To understand the selected system, it is necessary to determine the mathematical relationship among its characteristics, the equations governing these characteristics, and the coefficients within them. Overall, during the completion of the task, structural and parameter identification was conducted.
 
-This sentence uses `$` delimiters to show math inline:   $$\sqrt{3x-1}+(1+x)^2$$ - but its not working yet.
+This sentence uses `$` delimiters to show math inline:  $$ x = y^2 $$ - but its not working yet.
 
 
 ```python

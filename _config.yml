@@ -27,7 +27,7 @@ github_username:  dorabiro
 markdown: kramdown
 theme: minima
 math_engine: mathjax
-usemath: true
+usemathjax: true
 plugins:
   - jekyll-feed
 
