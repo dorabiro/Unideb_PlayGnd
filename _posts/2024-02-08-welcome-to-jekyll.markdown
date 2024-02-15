@@ -53,6 +53,10 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
  - but its not working yet.
 
 {% include codeHeader.html %}
+.copy-code-button {
+  display: block;
+}
+
 ```python
 for i in range(FREQ_STEPS):
     # Reset oscilloscope statistics
