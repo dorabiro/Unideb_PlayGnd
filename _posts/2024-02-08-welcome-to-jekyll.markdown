@@ -47,7 +47,7 @@ Circuit on breadboard</p>
 
 To understand the selected system, it is necessary to determine the mathematical relationship among its characteristics, the equations governing these characteristics, and the coefficients within them. Overall, during the completion of the task, structural and parameter identification was conducted.
 
-When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
  - but its not working yet.

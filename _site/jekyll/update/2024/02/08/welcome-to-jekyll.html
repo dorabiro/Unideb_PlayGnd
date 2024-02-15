@@ -9,17 +9,17 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="In this post you can read about a special case of the general Sallen-Key topology, where equal resistor and capacitor values were used: R1 = R2 = R and C1 = C2 = C. In the following you can find the tools, results, and methods which I used." />
 <meta property="og:description" content="In this post you can read about a special case of the general Sallen-Key topology, where equal resistor and capacitor values were used: R1 = R2 = R and C1 = C2 = C. In the following you can find the tools, results, and methods which I used." />
-<link rel="canonical" href="https://dorabiro.github.io/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html" />
-<meta property="og:url" content="https://dorabiro.github.io/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html" />
+<link rel="canonical" href="http://localhost:4000/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html" />
+<meta property="og:url" content="http://localhost:4000/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html" />
 <meta property="og:site_name" content="UnidebPlayGnd" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-02-08T17:28:23+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Sallen-Key Filter" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-02-08T17:28:23+01:00","datePublished":"2024-02-08T17:28:23+01:00","description":"In this post you can read about a special case of the general Sallen-Key topology, where equal resistor and capacitor values were used: R1 = R2 = R and C1 = C2 = C. In the following you can find the tools, results, and methods which I used.","headline":"Sallen-Key Filter","mainEntityOfPage":{"@type":"WebPage","@id":"https://dorabiro.github.io/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html"},"url":"https://dorabiro.github.io/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-02-08T17:28:23+01:00","datePublished":"2024-02-08T17:28:23+01:00","description":"In this post you can read about a special case of the general Sallen-Key topology, where equal resistor and capacitor values were used: R1 = R2 = R and C1 = C2 = C. In the following you can find the tools, results, and methods which I used.","headline":"Sallen-Key Filter","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html"},"url":"http://localhost:4000/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/unideb.playgnd/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://dorabiro.github.io/unideb.playgnd/feed.xml" title="UnidebPlayGnd" /></head>
+<link rel="stylesheet" href="/unideb.playgnd/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/unideb.playgnd/feed.xml" title="UnidebPlayGnd" /></head>
 <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/unideb.playgnd/">UnidebPlayGnd</a><nav class="site-nav">
@@ -39,15 +39,15 @@
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Sallen-Key Filter</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2024-02-08T17:28:23+01:00" itemprop="datePublished">Feb 8, 2024
-      </time></p>
-  </header>
+    <header class="post-header">
+        <h1 class="post-title p-name" itemprop="name headline">Sallen-Key Filter</h1>
+        <p class="post-meta">
+            <time class="dt-published" datetime="2024-02-08T17:28:23+01:00" itemprop="datePublished">Feb 8, 2024
+            </time></p>
+    </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>In this post you can read about a special case of the general <a href="https://en.wikipedia.org/wiki Sallen%E2%80%93Key_topology">Sallen-Key</a> topology, where equal resistor and capacitor values were used:  <code class="language-plaintext highlighter-rouge">R1 = R2 = R</code> and <code class="language-plaintext highlighter-rouge">C1 = C2 = C</code>. In the following you can find the tools, results, and methods which I used.</p>
+    <div class="post-content e-content" itemprop="articleBody">
+        <p>In this post you can read about a special case of the general <a href="https://en.wikipedia.org/wiki Sallen%E2%80%93Key_topology">Sallen-Key</a> topology, where equal resistor and capacitor values were used:  <code class="language-plaintext highlighter-rouge">R1 = R2 = R</code> and <code class="language-plaintext highlighter-rouge">C1 = C2 = C</code>. In the following you can find the tools, results, and methods which I used.</p>
 
 <p><strong>Used instruments:</strong></p>
 
@@ -91,7 +91,7 @@ Circuit on breadboard</p>
 
 <p>To understand the selected system, it is necessary to determine the mathematical relationship among its characteristics, the equations governing these characteristics, and the coefficients within them. Overall, during the completion of the task, structural and parameter identification was conducted.</p>
 
-<p>When (a \ne 0), there are two solutions to (ax^2 + bx + c = 0) and they are
+<p>When \((a \ne 0)\), there are two solutions to \((ax^2 + bx + c = 0)\) and they are
 \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\)</p>
 
 <ul>
@@ -133,9 +133,18 @@ Circuit on breadboard</p>
 </code></pre></div></div>
 
 
-  </div><a class="u-url" href="/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html" hidden></a>
+    </div><a class="u-url" href="/unideb.playgnd/jekyll/update/2024/02/08/welcome-to-jekyll.html" hidden></a>
 </article>
 
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+    };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/unideb.playgnd/"></data>
